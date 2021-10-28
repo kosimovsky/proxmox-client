@@ -1,0 +1,10 @@
+*.ini
+*.swp
+.idea/
+.vscode/
+*.xlsx
+!test.xlsx
+*.xls
+*.cfg
+/Lib
+/Scripts

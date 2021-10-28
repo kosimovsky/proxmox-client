@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "proxmox-client"
+version = "1.0.0"
+description = "Proxmox cluster client"
+authors = ["Alexander Kosimovsky <a.kosimovsky@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+proxmoxer = "^1.1.1"
+"hurry.filesize" = "^0.9"
+argparse = "^1.4.0"
+termcolor = "^1.1.0"
+styleframe = "^4.0.0"
+textwrap3 = "^0.9.2"
+pandas = "^1.2.4"
+configparser = "^5.0.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
